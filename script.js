@@ -9,7 +9,7 @@ function changeTitle() {
   
 
 function test() {
-    let object = document.getElementByID("paragraphText");
+    let object = document.getElementById("paragraphText");
     console.out.println(object)
 }
   changeTitle(); // Call the function to start the countdown
