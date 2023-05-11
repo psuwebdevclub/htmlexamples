@@ -7,5 +7,10 @@ function changeTitle() {
     }, 10000); // Wait 10 seconds before executing the code inside the setTimeout function
   }
   
+
+function test() {
+    let object = document.getElementByID("paragraphText");
+    console.out.println(object)
+}
   changeTitle(); // Call the function to start the countdown
   
