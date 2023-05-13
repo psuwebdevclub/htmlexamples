@@ -9,6 +9,7 @@
 <body>
     <div class="main">
         <div class="section">
+            <h1>Static</h1>
             <div class="block">
                 Example Block
             </div>
@@ -20,24 +21,24 @@
             </div>
         </div>
         <div class="section">
-            <div class="block">
+            <div class="block mr">
                 Example Block
             </div>
-            <div class="block">
+            <div class="block mr">
                 Example Block
             </div>
-            <div class="block">
+            <div class="block mr">
                 Example Block
             </div>
         </div>
         <div class="section">
-            <div class="block">
+            <div class="block ma">
                 Example Block
             </div>
-            <div class="block">
+            <div class="block ma">
                 Example Block
             </div>
-            <div class="block">
+            <div class="block ma">
                 Example Block
             </div>
         </div>
@@ -51,15 +52,22 @@
         .section{
             margin: 5px;
             border: 2px dashed black;
+            padding: 20px;
         }
         .block{
             background-color: rgb(110, 110, 110);
             border: 2px solid rgb(74, 58, 255);
             border-radius: 5px;
-            height: 300px;
+            height: 100px;
             width: 300px;
             color: white;
             padding: 10px;
+        }
+        .mr{
+            position: relative;
+        }
+        .ma{
+            position: absolute;
         }
     </style>
 </body>
